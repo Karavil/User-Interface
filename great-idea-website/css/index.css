@@ -1,10 +1,11 @@
+* {
+	font-family: 'Titillium Web', sans-serif;
+}
+
 body {
 	padding: 4%;
 }
 
-* {
-	font-family: 'Titillium Web', sans-serif;
-}
 
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Bangers', cursive;
@@ -12,15 +13,16 @@ h1, h2, h3, h4, h5, h6{
 
 h1 {
 	line-height: 0.65;
-	letter-spacing: 0.3rem;
+	letter-spacing: 0.3vw;
 }
 
 h2 {
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.1vw;
+	font-size: 1.8vw;
 }
 
 p {
-	font-size: 1.5rem;
+	font-size: 1.3vw;
 }
 
 nav {
@@ -29,14 +31,32 @@ nav {
 }
 
 nav a {
-	margin: 0 11% 0 0;
+	margin: 0 7vw 0 0;
+	font-size: 1.2vw;
+	color: gray;
+	text-decoration: none;
+}
+
+div.space {
+	display: inline-block;
+	width: 0vw;
+}
+
+nav div.space {
+	width: 8.5vw;
+	margin: 0;
+}
+
+nav img {
+	width: 14.5vw;
 }
 
 section.banner {
 	text-align: center;
-	border-bottom: 0.1rem solid black;
+	border-bottom: 0.1vw solid black;
 	padding: 5% 0 5%;
 }
+
 section.banner #text-and-button{
 	display: inline-block;
 	width: 40%;
@@ -47,20 +67,23 @@ section.banner #text-and-button{
 section.banner #text-and-button h1 {
 	display: inline-block;
 	text-align: center;
-	font-size: 8rem;
+	font-size: 5vw;
 	margin: 10% 0 0;
 }
 
 section.banner #text-and-button button {
 	display: inline-block;
+	width: 35%;
+	padding: 1% 0;
 	margin: 5% 10% 0;
-	padding: 1% 12%;
-	font-size: 1rem;
+	font-size: 1vw;
+	border-radius: 2px;
+	border: 0.1vw solid black;
 }
 
 section.banner #innovation-image {
 	display: inline-block;
-	width: 32%;
+	width: 37%;
 	margin: 0;
 	vertical-align: middle;
 }
@@ -71,18 +94,24 @@ section.banner #innovation-image img {
 
 section.info-list {
 	margin-top: 4%;
+	border-bottom: 0.1vw solid black;
+	padding-bottom: 2%;
 }
 
 section.info-list .info-box {
 	display: inline-block;
-	width: 49%;
+	width: 48.5%;
 	margin: 0;
 }
 
 section.info-list .info-box.third {
 	display: inline-block;
-	width: 33.1%;
+	width: 31%;
 	margin: 0 auto;
+}
+
+section.info-list .space {
+	width: 2%;
 }
 
 section.info-list img {
@@ -94,4 +123,10 @@ section.info-list .info-box #features {
 	display: inline-block;
 	width: 49%;
 	margin: 0;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.3vw;
+	padding: 3% 0;
 }
