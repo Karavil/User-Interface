@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1 {
-	line-height: 0.65;
+	line-height: 1;
 	letter-spacing: 0.3vw;
 }
 
@@ -76,14 +76,23 @@ section.banner #text-and-button h1 {
 	margin: 10% 0 0;
 }
 
-section.banner #text-and-button button {
+section.banner #text-and-button a.button {
 	display: inline-block;
+	color: black;
 	width: 35%;
 	padding: 1% 0;
 	margin: 5% 10% 0;
 	font-size: 1vw;
 	border-radius: 2px;
 	border: 0.1vw solid black;
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+section.banner #text-and-button a.button:hover {
+	cursor: pointer;
+	background: black;
+	color: white;
 }
 
 section.banner #innovation-image {
