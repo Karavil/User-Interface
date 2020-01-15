@@ -111,7 +111,7 @@ section.info-list .info-box.third {
 }
 
 section.info-list .space {
-	width: 2%;
+	width: 1.5%;
 }
 
 section.info-list img {
@@ -123,6 +123,14 @@ section.info-list .info-box #features {
 	display: inline-block;
 	width: 49%;
 	margin: 0;
+}
+
+section.contact {
+	margin-top: 3%;
+}
+
+section.contact address p {
+	margin: 0.5% 0;
 }
 
 footer {
