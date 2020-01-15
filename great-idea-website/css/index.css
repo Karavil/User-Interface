@@ -35,6 +35,11 @@ nav a {
 	font-size: 1.2vw;
 	color: gray;
 	text-decoration: none;
+	transition: 1s;
+}
+
+nav a:hover {
+	color: black;
 }
 
 div.space {
