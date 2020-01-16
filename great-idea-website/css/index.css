@@ -85,8 +85,8 @@ section.banner #text-and-button a.button {
 	font-size: 1vw;
 	border-radius: 2px;
 	border: 0.1vw solid black;
-	transition: 0.5s;
 	text-decoration: none;
+	transition: 0.5s;
 }
 
 section.banner #text-and-button a.button:hover {
@@ -120,7 +120,7 @@ section.info-list .info-box {
 
 section.info-list .info-box.third {
 	display: inline-block;
-	width: 31%;
+	width: 31.7%;
 	margin: 0 auto;
 }
 
