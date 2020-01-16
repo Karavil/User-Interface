@@ -28,6 +28,7 @@ p {
 nav {
 	text-align: left;
 	padding-bottom: 2%;
+	transition: 0s;
 }
 
 nav a {
@@ -35,7 +36,6 @@ nav a {
 	font-size: 1.2vw;
 	color: gray;
 	text-decoration: none;
-	transition: 1s;
 }
 
 nav a:hover {
